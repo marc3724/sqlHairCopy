@@ -12,7 +12,7 @@ public class Main {
         //Employee user1 = new Employee("Karen Klippesen", "kk@klipmig.dk", "Klippevej 14 Hårstrup 4100", "11223344", "1111");
         //msql.editCustomer("1","newEmail@test.dk","666666","Zealand","admin2.0","newEmail@test.dk");
 
-        User user1 = msql.TryUserLogin("Email","ee");
+        User user1 = msql.TryUserLogin("e@e.dk","ee");
 
 
         visual f = new visual();
